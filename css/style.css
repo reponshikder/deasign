@@ -1,0 +1,180 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    border-bottom: 2px solid #d3c6c685;
+}
+.container{
+    max-width: 90%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.logo{
+    width: 10%;
+    float: left;
+}
+.logo a{
+    display: block;
+    padding: 4px 4px;
+}
+.logo a img{
+    width: 100%;
+}
+
+nav{
+    width: 40%;
+    float: right;
+}
+nav ul{
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 15px;
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: #0F2656;
+    display: block;
+}
+nav ul li a:hover{
+    color: #008AFF;
+}
+nav ul li:last-child a{
+    padding-right: 0;
+}
+
+/*banner srart*/
+.banner{
+    padding-bottom: 40px;
+}
+.container2{
+    margin: 0 auto;
+    max-width: 70%;
+}
+.b_content{
+    text-align: center;
+}
+.b_content h1{
+    font-size: 65px;
+    color: #0F2656;
+    margin-bottom: 0;
+    margin-top: 70px;
+}
+.b_content h1 span{
+    color: #008AFF;
+}
+.b_content p{
+    color: #2F486C;
+    line-height: 1.5;
+    font-size: 24px;
+}
+.b_img{
+    width: 60%;
+    margin: 0 auto;
+}
+.b_img img{
+    width: 100%;
+}
+
+/*banner end*/
+
+
+/*Success start*/
+.success{
+    padding: 30px 0 40px 0;
+}
+.s_content{
+    overflow: hidden;
+}
+.s_left{
+    width: 42%;
+    float: left;
+    text-align: right;
+    padding: 53px 20px 10px 30px;
+}
+.s_left h2{
+    font-size: 55px;
+    color: #F15767;
+    margin: 0;
+}
+.s_left p{
+    font-size: 27px;
+    color: #898282;
+    margin: 10px 0 35px;
+    line-height: 1.3;
+}
+.s_right{
+    width: 50%;
+    float: right;
+    padding: 0px 25px;
+}
+.s_right h1{
+    font-size: 62px;
+    color: #0F2656;
+    line-height: 1.3;
+}
+/*Success end*/
+
+/*creativity start*/
+.creativity{
+
+}
+.c_content{
+    overflow: hidden;
+
+}
+.c_single{
+    float: left;
+    width: 29.1%;
+    margin-right: 48px;
+    padding: 20px 20px 40px;
+}
+.c_single:last-child{
+    margin-right: 0;
+}
+.c_img{}
+.c_img img{
+    width: 100%;
+}
+.c_single h2{
+    font-size: 36px;
+    color: #0F2660;
+    margin: 0;
+}
+.c_single p{
+    font-size: 26px;
+    line-height: 1.3;
+    color: #142A59;
+}
+.pink{
+    background: #FDEBED;
+}
+.red{
+    background: #EBF9F4;
+}
+.grenn{
+    background: #FFF7E8;
+}
+/*creativity end*/
+
+/*footer start*/
+footer{
+    background: #008AFF;
+    padding: 35px;
+    margin-top: 80px;
+}
+.contain{
+    text-align: center;
+}
+.contain p{
+    color: #9ECEFF;
+    margin: 0;
+}
+.contain p span{
+    color: white;
+}
+/*footer end*/
